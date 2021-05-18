@@ -36,3 +36,13 @@ export function encounterPokemon(PokemonId) {
     }
     setDex(dex);
 }
+
+export function getTotalCaptured() {
+    let total = 0;
+    const pokedex = getDex();
+
+    for (let poke of pokedex) {
+        total += poke.captured
+    }
+    return total;
+}

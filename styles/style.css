@@ -60,7 +60,6 @@ footer {
     box-shadow: var(--shadow);
 }
 
-
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
@@ -92,25 +91,6 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
-
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
 
   .pokemon {
       width: 200px;
@@ -122,5 +102,9 @@ footer {
   }
 
   input:checked + img {
-      border: solid 1px black;
+      border: solid 2px silver;
+  }
+
+  #reset-game {
+      margin-bottom: 15px;
   }

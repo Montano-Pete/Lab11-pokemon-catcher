@@ -116,3 +116,11 @@ footer {
       width: 200px;
       height: 200px;
   }
+
+  input {
+      display: none;
+  }
+
+  input:checked + img {
+      border: solid 1px black;
+  }

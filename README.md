@@ -42,7 +42,7 @@
     getPokedex function
         - parses string
         - sets it equal to a constant
-        - returnin pokedex
+        - return pokedex
        
 
     set pokedex function

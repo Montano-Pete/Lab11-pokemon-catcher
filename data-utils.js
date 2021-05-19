@@ -13,7 +13,6 @@ export function mungeNames(pokemonArray) {
     const results = [];
     for (let poke of pokemonArray) {
         const data = findById(pokedex, poke.id);
-        // const name = data.name
         results.push(data.name);
     }
     return results;

@@ -47,6 +47,6 @@ let myChart = new Chart(ctx, {
 });
 
 resetButton.addEventListener('click', () => {
-    window.location.replace('../index.html');
+    window.location.replace('../');
     setDex([]);
 });
